@@ -1,4 +1,4 @@
-.header-example {
+.header {
   background-color: #ffffff;
   padding: 20px 0;
   z-index: 30;
@@ -103,19 +103,19 @@
       z-index: 20;
     }
 
-    .header-example--blue & {
+    .header--blue & {
       background-color: #3c69ff;
     }
 
-    .header-example--red & {
+    .header--red & {
       background-color: #f03838;
     }
 
-    .header-example--green & {
+    .header--green & {
       background-color: #17ff45;
     }
 
-    .header-example--yellow & {
+    .header--yellow & {
       background-color: #f4ff25;
     }
 
@@ -124,7 +124,7 @@
       pointer-events: all;
       visibility: visible;
 
-      .header-example__item {
+      .header__item {
         opacity: 1;
         transform: translateX(0);
       }
@@ -226,13 +226,13 @@
     }
 
     .is-open {
-      .header-example__burger-text {
+      .header__burger-text {
         opacity: 0;
         pointer-events: none;
         transition: opacity 0.3s ease 0s;
       }
 
-      .header-example__burger-icon {
+      .header__burger-icon {
         opacity: 1;
         pointer-events: all;
         transition: opacity 0.3s ease 0.2s;
@@ -275,7 +275,7 @@
 }
 
 .section-example {
-  height: 100vh;
+  height: 80vh;
 
   &:nth-child(2) {
     background-color: #f03838;

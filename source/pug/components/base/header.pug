@@ -14,17 +14,17 @@ mixin header(headerMods, currentUrl)
         text: "Страница 3"
       },
     ]
-  header.header-example.header-example--sticky.header-example--blue(data-header="sticky" data-scroll-lock-fill-gap="" data-hide-point="50")
+  header.header.header--sticky.header--blue(data-header="sticky" data-scroll-lock-fill-gap="" data-hide-point="50")
     .container
-      a.logo.header-example__logo(href="index.html" aria-label="Переход на главную страницу")
+      a.logo.header__logo(href="index.html" aria-label="Переход на главную страницу")
         +icon("logo", 150, 50).some-class
-      nav.header-example__nav
-        ul.header-example__list
-          li.header-example__item: a.header-example__link(href="components.html") Компоненты
-          li.header-example__item: a.header-example__link(href="cases.html") Кейсы
-          li.header-example__item: a.header-example__link(href="guides.html") Гайды
-          li.header-example__item: a.header-example__link.header-example__link--blue(href="https://ligaa.agency/" target="_blank") Лига А.
-      button.header-example__burger(type="button" aria-label="Переключатель отображения меню" aria-pressed="false" data-burger="")
-        +icon("burger-menu", 30, 30).header-example__burger-text
-        +icon("icon-close", 30, 30).header-example__burger-icon(aria-hidden="true")
+      nav.header__nav
+        ul.header__list
+          li.header__item: a.header__link(href="#") Компоненты
+          li.header__item: a.header__link(href="#") Кейсы
+          li.header__item: a.header__link(href="#") Гайды
+          li.header__item: a.header__link.header__link--blue(href="#" target="_blank") Лига А.
+      button.header__burger(type="button" aria-label="Переключатель отображения меню" aria-pressed="false" data-burger="")
+        +icon("burger-menu", 30, 30).header__burger-text
+        +icon("icon-close", 30, 30).header__burger-icon(aria-hidden="true")
 

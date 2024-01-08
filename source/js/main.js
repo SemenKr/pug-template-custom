@@ -25,6 +25,8 @@ window.addEventListener('DOMContentLoaded', () => {
     burger.init();
     const stickyHeader = new StickyHeader();
     stickyHeader.init();
+    const select = new CustomSelect();
+    select.init();
   });
 });
 

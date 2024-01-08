@@ -1,5 +1,5 @@
 
-import {createElement, renderElement} from '../../utils/render';
+import {createElement, renderElement} from './utils';
 import {createNativeSelectMarkup} from './create-select-markup';
 
 export class CustomSelect {
